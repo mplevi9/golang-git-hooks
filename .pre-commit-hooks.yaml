@@ -1,7 +1,7 @@
--   id: golangci-lint
-    name: golangci-lint
+-   id: golangci-lint-custom
+    name: golangci-lint-custom
     description: "Runs `golangci-lint`, requires https://github.com/golangci/golangci-lint"
-    entry: golangci-lint
+    entry: golangci-lint-custom
     files: '\.go$'
     types: [ go ]
     language: golang
