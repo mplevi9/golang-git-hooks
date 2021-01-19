@@ -1,7 +1,7 @@
--   id: golangci-lint-custom
-    name: golangci-lint-custom
+-   id: hook_golangci_lint
+    name: hook_golangci_lint
     description: "Runs `golangci-lint`, requires https://github.com/golangci/golangci-lint"
-    entry: golangci-lint-custom
+    entry: hook_golangci_lint
     files: '\.go$'
     types: [ go ]
     language: golang

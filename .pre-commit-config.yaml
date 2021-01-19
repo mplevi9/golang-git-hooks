@@ -1,5 +1,5 @@
 repos:
   -   repo: https://github.com/mplevi9/pre-commit-golang
-      rev: v0.1.2
+      rev: v0.1.3
       hooks:
-        -   id: golangci-lint-custom
+        -   id: hook_golangci_lint
